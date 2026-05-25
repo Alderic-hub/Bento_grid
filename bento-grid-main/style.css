@@ -1,0 +1,319 @@
+body{
+    margin: 0px;
+    margin-bottom: 6%;
+    background-color: rgb(243, 243, 243);
+}
+#body{
+    margin: auto auto;
+    margin-top: 5%;
+    display: grid;
+    height: 90%;
+    width: 80%;
+    grid-template-columns:1fr 3fr ;
+    grid-template-rows: 1fr;
+    gap: 20px;
+    font-weight: 300;
+}
+#create{
+    background-color:hsl(31, 66%, 93%) ;
+}
+#create_write{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+#create_write div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    border-radius: 10px;
+    flex-direction: column;
+    font-size: 45px;
+    padding-left: 10%;
+}
+#create #quicker{
+    color: blueviolet;
+    font-style: italic;
+}
+img{
+    height: 10px;
+    width: 40px;
+}
+#create_write #create img{
+    height: 100px;
+    width: 70%;
+}
+#create_write #write img{
+    height: 200px;
+    width: 100%
+}
+#write{
+    background-color: hsl(39, 100%, 71%);
+}
+#social_growth{
+    display: grid;
+    grid-template-rows: 2.5fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+#top{
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+#schedule_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 11%;
+    overflow: hidden;
+    background-color: blueviolet;
+}
+#schedule_media img{
+    height: 50%;
+    width: 180%;
+    margin-left: 80%;
+}
+#schedule_media #Schedule{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 12%;
+}
+#schedule_media #Optimize{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 12%;
+}
+#social_media{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1 fr;
+    gap: 20px;
+    
+}
+#social_media #center #x10x{
+    color: hsl(39, 100%, 71%);
+}
+#center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;text-align: center;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: hsl(256, 67%, 59%);
+}
+#center img{
+    height: 50px;
+    width: 170px;
+
+}
+#center span{
+    font-size: 60px;
+}
+#low_center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+#low_center div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 38px;
+    padding-left: 10%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#low_center #manage{
+    padding-bottom: 5%;
+    padding-top: 5%;   
+    background-color: white;
+    line-height: 6vh; 
+}
+#low_center #manage img{
+ width: 130%;
+ height: 30%;
+ margin-bottom: 5%;
+ margin-left: 30%;
+}
+#low_center #maintain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 5%;
+    padding-top: 5%;
+    background-color:hsl(39, 100%, 71%);
+    line-height: 6vh; 
+}
+#low_center #maintain img{
+ height: 100%;
+ width: 100%;
+ padding-left: -80%;
+ margin-bottom: -40%;
+ margin-left: -10%;
+}
+#schedule_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color:  hsl(254, 88%, 90%);
+}
+#schedule_media #Schedule{
+    font-weight: 600;
+    font-size: 180%;
+}
+#bottom{
+
+    display: grid;
+    grid-template-columns: 1.05fr 2fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+#bottom div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#bottom #audience_growth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: start;
+    background-color: white;
+}
+#audience_growth span{
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: -5%;
+}
+#audience_growth img{
+    width: 90%;
+    height: 30%;
+    margin-top: 10%;
+}
+
+#bottom #Grow{
+    display: flex;
+    gap: 5%;
+    background-color: hsl(256, 67%, 59%);
+    padding: 5%;
+    font-size: 30px;
+}
+#bottom #Grow img{
+    height: 100%;
+    width: 50%;
+}
+@media (max-width: 900px)    {
+    #body{
+        display: flex;
+        flex-direction: column;
+    }
+    #center{
+        padding: 10%;
+        color: white;
+    }
+    #center #social{
+        font-size: 250%;
+    }
+    #center img{
+        width: 80%;
+    }
+    #create_write{
+        display: flex;
+        flex-direction: column;
+    }
+    #create_write #create{
+        gap: 5vh;
+        padding: 5vh;
+    }
+    #create_write #write {
+        padding: 5vh;
+        align-items: start;
+        gap: 5vh;
+    }
+    #create_write #write img{
+        height: 50vh;
+        width: 80%;
+     }
+    #low_center #manage{
+        padding: 10%;
+        font-size: 200%;
+    }
+    #low_center #maintain img{
+        height: 50vh;
+        width:80%;
+        margin-top: 5vh;
+        margin-left: -13vw;
+     }
+    #low_center #maintain{
+        padding: 10%;
+        font-size: 200%;
+        font-weight: 600;
+    }
+    #social_growth{
+        display: flex;
+        flex-direction: column;
+    }
+    #top{
+        display: flex;
+        flex-direction: column;
+    }
+    #social_media{
+        display: flex;
+        flex-direction: column;
+    }
+    #schedule_media #Optimize{
+        font-size: 120%;
+        text-align: center;
+        padding-right: 15%;
+    }
+    #schedule_media #Schedule{
+        font-size: 600;
+        font-weight: 600;
+    }
+    #schedule_media img{
+        height: 100%;
+        width: 100%;
+        margin: 0px;
+    }
+    #low_center{
+        display: flex;
+        flex-direction: column;
+    }
+    #bottom{
+        display: flex;
+        flex-direction: column;
+    }
+    #bottom #audience_growth{
+        padding: 10%;
+    }
+    #bottom #Grow{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 10%;
+        gap: 4vh;
+        font-size: 250%;
+        color: white;
+        line-height: 5vh;
+        text-align: center;
+
+    }
+    #bottom #Grow img{
+        height: 80%;
+        width: 70%;
+    }
+}
