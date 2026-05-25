@@ -186,6 +186,9 @@ img{
     font-weight: 800;
     line-height: 4vh;
 }
+ #schedule_media #Optimize{
+    font-size: 20px;
+ }
 #bottom{
 
     display: grid;
